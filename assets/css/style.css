@@ -17,6 +17,14 @@ html {
   min-height: 100%;
 }
 
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
 .container {
   max-width: 960px;
 }
@@ -31,6 +39,15 @@ html {
   margin-top: 120px;
 }
 
+.main-container {
+  float: left;
+  width: 100%;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
 /* Sidebar */
 
 .sidebar {
@@ -42,7 +59,9 @@ html {
   border: 1px solid #ddd;
 }
 
-.sidebar h1 {
+
+.sidebar-header {
+  font-size: 1.5em;
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
