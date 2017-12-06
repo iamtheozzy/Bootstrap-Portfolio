@@ -144,3 +144,29 @@ nav a {
 .image-push {
   margin-top: 35px;
 }
+
+/* Responsive Meta Tags*/
+
+/* iPad Size */
+@media screen and (max-width : 768px) {
+/* Styles */
+.col-centered {
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 60%;
+}
+
+}
+
+/* medium desktop */
+@media screen and (max-width : 990px) {
+/* Styles */
+.col-centered {
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 60%;
+}
